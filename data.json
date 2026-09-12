@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 4,
+  "settings": {
+    "lang": "en",
+    "restaurantName": {
+      "ar": "",
+      "en": "Urban Table"
+    },
+    "logo": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22300%22%20height%3D%22300%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%231f2937%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2242%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3EUT%3C/text%3E%3C/svg%3E",
+    "restaurantEmail": "",
+    "deliveryFee": 4.5,
+    "minimumOrder": 15,
+    "freeDeliveryThreshold": 30,
+    "taxRate": 0,
+    "currency": "USD",
+    "multiBranch": true,
+    "phone": "",
+    "footerEmail": "",
+    "address": "",
+    "socialLinks": {
+      "facebook": "",
+      "instagram": "",
+      "tiktok": "",
+      "x": "",
+      "youtube": ""
+    },
+    "deliveryZones": [
+      {
+        "id": "zone_standard",
+        "name": {
+          "ar": "",
+          "en": "Standard Delivery"
+        },
+        "price": 4.5
+      },
+      {
+        "id": "zone_extended",
+        "name": {
+          "ar": "",
+          "en": "Extended Area"
+        },
+        "price": 7.5
+      }
+    ],
+    "slider": {
+      "images": [
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%221600%22%20height%3D%22700%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%231f2937%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2242%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3EWelcome%3C/text%3E%3C/svg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%221600%22%20height%3D%22700%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e76f51%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2242%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3EFresh%20%26amp%3B%20Tasty%3C/text%3E%3C/svg%3E"
+      ],
+      "intervalSeconds": 4
+    },
+    "colors": {
+      "branches": {
+        "type": "gradient",
+        "color1": "#264653",
+        "color2": "#2a9d8f",
+        "angle": 135
+      },
+      "menu": {
+        "type": "gradient",
+        "color1": "#f4a261",
+        "color2": "#e9c46a",
+        "angle": 135
+      },
+      "checkout": {
+        "type": "gradient",
+        "color1": "#264653",
+        "color2": "#2a9d8f",
+        "angle": 135
+      },
+      "secondary": {
+        "type": "solid",
+        "color1": "#1f2937",
+        "color2": "#1f2937",
+        "angle": 135
+      },
+      "header": {
+        "type": "solid",
+        "color1": "#ffffff",
+        "color2": "#ffffff",
+        "angle": 135
+      }
+    }
+  },
+  "branches": [
+    {
+      "id": "branch_main",
+      "name": {
+        "ar": "",
+        "en": "Main Location"
+      },
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22500%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23264653%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%93%8D%3C/text%3E%3C/svg%3E",
+      "pickupEnabled": true,
+      "deliveryEnabled": true
+    },
+    {
+      "id": "branch_downtown",
+      "name": {
+        "ar": "",
+        "en": "Downtown Location"
+      },
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22800%22%20height%3D%22500%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23264653%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%93%8D%3C/text%3E%3C/svg%3E",
+      "pickupEnabled": true,
+      "deliveryEnabled": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_burgers",
+      "name": {
+        "ar": "",
+        "en": "Burgers"
+      },
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22600%22%20height%3D%22450%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f4a261%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%8D%94%3C/text%3E%3C/svg%3E",
+      "branchIds": [],
+      "order": 0
+    },
+    {
+      "id": "cat_pizza",
+      "name": {
+        "ar": "",
+        "en": "Pizza"
+      },
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22600%22%20height%3D%22450%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e76f51%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%8D%95%3C/text%3E%3C/svg%3E",
+      "branchIds": [],
+      "order": 1
+    },
+    {
+      "id": "cat_drinks",
+      "name": {
+        "ar": "",
+        "en": "Drinks"
+      },
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22600%22%20height%3D%22450%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%232a9d8f%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%A5%A4%3C/text%3E%3C/svg%3E",
+      "branchIds": [],
+      "order": 2
+    },
+    {
+      "id": "cat_desserts",
+      "name": {
+        "ar": "",
+        "en": "Desserts"
+      },
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22600%22%20height%3D%22450%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e9c46a%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%8D%B0%3C/text%3E%3C/svg%3E",
+      "branchIds": [],
+      "order": 3
+    },
+    {
+      "id": "cat_salads",
+      "name": {
+        "ar": "",
+        "en": "Salads"
+      },
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22600%22%20height%3D%22450%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%236a994e%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%A5%97%3C/text%3E%3C/svg%3E",
+      "branchIds": [],
+      "order": 4
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_classic_burger",
+      "categoryId": "cat_burgers",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22600%22%20height%3D%22450%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f4a261%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%8D%94%3C/text%3E%3C/svg%3E",
+      "price": 9.5,
+      "discountPercent": 0,
+      "branchIds": [],
+      "order": 0,
+      "name": {
+        "ar": "",
+        "en": "Classic Burger"
+      },
+      "description": {
+        "ar": "",
+        "en": "Grilled beef patty, lettuce, tomato and house sauce"
+      },
+      "optionGroups": []
+    },
+    {
+      "id": "prod_crispy_chicken",
+      "categoryId": "cat_burgers",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22600%22%20height%3D%22450%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f4a261%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%8D%94%3C/text%3E%3C/svg%3E",
+      "price": 10.5,
+      "discountPercent": 0,
+      "branchIds": [],
+      "order": 1,
+      "name": {
+        "ar": "",
+        "en": "Crispy Chicken Burger"
+      },
+      "description": {
+        "ar": "",
+        "en": "Crispy chicken, lettuce, pickles and signature sauce"
+      },
+      "optionGroups": []
+    },
+    {
+      "id": "prod_double_cheese",
+      "categoryId": "cat_burgers",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22600%22%20height%3D%22450%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f4a261%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%8D%94%3C/text%3E%3C/svg%3E",
+      "price": 12.5,
+      "discountPercent": 0,
+      "branchIds": [],
+      "order": 2,
+      "name": {
+        "ar": "",
+        "en": "Double Cheese Burger"
+      },
+      "description": {
+        "ar": "",
+        "en": "Two beef patties with cheddar and house sauce"
+      },
+      "optionGroups": []
+    },
+    {
+      "id": "prod_margherita",
+      "categoryId": "cat_pizza",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22600%22%20height%3D%22450%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e76f51%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%8D%95%3C/text%3E%3C/svg%3E",
+      "price": 11,
+      "discountPercent": 0,
+      "branchIds": [],
+      "order": 3,
+      "name": {
+        "ar": "",
+        "en": "Margherita Pizza"
+      },
+      "description": {
+        "ar": "",
+        "en": "Tomato sauce, mozzarella and fresh basil"
+      },
+      "optionGroups": []
+    },
+    {
+      "id": "prod_pepperoni",
+      "categoryId": "cat_pizza",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22600%22%20height%3D%22450%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e76f51%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%8D%95%3C/text%3E%3C/svg%3E",
+      "price": 13,
+      "discountPercent": 0,
+      "branchIds": [],
+      "order": 4,
+      "name": {
+        "ar": "",
+        "en": "Pepperoni Pizza"
+      },
+      "description": {
+        "ar": "",
+        "en": "Mozzarella, tomato sauce and pepperoni"
+      },
+      "optionGroups": []
+    },
+    {
+      "id": "prod_veggie",
+      "categoryId": "cat_pizza",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22600%22%20height%3D%22450%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e76f51%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%8D%95%3C/text%3E%3C/svg%3E",
+      "price": 12.5,
+      "discountPercent": 0,
+      "branchIds": [],
+      "order": 5,
+      "name": {
+        "ar": "",
+        "en": "Garden Veggie Pizza"
+      },
+      "description": {
+        "ar": "",
+        "en": "Fresh vegetables, mozzarella and tomato sauce"
+      },
+      "optionGroups": []
+    },
+    {
+      "id": "prod_cola",
+      "categoryId": "cat_drinks",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22600%22%20height%3D%22450%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%232a9d8f%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%A5%A4%3C/text%3E%3C/svg%3E",
+      "price": 2.5,
+      "discountPercent": 0,
+      "branchIds": [],
+      "order": 6,
+      "name": {
+        "ar": "",
+        "en": "Cola"
+      },
+      "description": {
+        "ar": "",
+        "en": "Chilled soft drink"
+      },
+      "optionGroups": []
+    },
+    {
+      "id": "prod_lemonade",
+      "categoryId": "cat_drinks",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22600%22%20height%3D%22450%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%232a9d8f%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%A5%A4%3C/text%3E%3C/svg%3E",
+      "price": 4,
+      "discountPercent": 0,
+      "branchIds": [],
+      "order": 7,
+      "name": {
+        "ar": "",
+        "en": "Fresh Lemonade"
+      },
+      "description": {
+        "ar": "",
+        "en": "Freshly squeezed lemonade"
+      },
+      "optionGroups": []
+    },
+    {
+      "id": "prod_water",
+      "categoryId": "cat_drinks",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22600%22%20height%3D%22450%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%232a9d8f%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%A5%A4%3C/text%3E%3C/svg%3E",
+      "price": 1.5,
+      "discountPercent": 0,
+      "branchIds": [],
+      "order": 8,
+      "name": {
+        "ar": "",
+        "en": "Bottled Water"
+      },
+      "description": {
+        "ar": "",
+        "en": "Cold bottled water"
+      },
+      "optionGroups": []
+    },
+    {
+      "id": "prod_cheesecake",
+      "categoryId": "cat_desserts",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22600%22%20height%3D%22450%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e9c46a%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%8D%B0%3C/text%3E%3C/svg%3E",
+      "price": 6,
+      "discountPercent": 0,
+      "branchIds": [],
+      "order": 9,
+      "name": {
+        "ar": "",
+        "en": "Cheesecake"
+      },
+      "description": {
+        "ar": "",
+        "en": "Creamy cheesecake with a buttery crust"
+      },
+      "optionGroups": []
+    },
+    {
+      "id": "prod_brownie",
+      "categoryId": "cat_desserts",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22600%22%20height%3D%22450%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23e9c46a%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%8D%B0%3C/text%3E%3C/svg%3E",
+      "price": 5.5,
+      "discountPercent": 0,
+      "branchIds": [],
+      "order": 10,
+      "name": {
+        "ar": "",
+        "en": "Chocolate Brownie"
+      },
+      "description": {
+        "ar": "",
+        "en": "Warm chocolate brownie"
+      },
+      "optionGroups": []
+    },
+    {
+      "id": "prod_house_salad",
+      "categoryId": "cat_salads",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22600%22%20height%3D%22450%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%236a994e%22/%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2272%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%3E%F0%9F%A5%97%3C/text%3E%3C/svg%3E",
+      "price": 7.5,
+      "discountPercent": 0,
+      "branchIds": [],
+      "order": 11,
+      "name": {
+        "ar": "",
+        "en": "House Salad"
+      },
+      "description": {
+        "ar": "",
+        "en": "Crisp greens, tomato, cucumber and house dressing"
+      },
+      "optionGroups": []
+    }
+  ]
+}
